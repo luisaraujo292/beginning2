@@ -7,7 +7,7 @@ function Greeting(props) {
       <ul>
         <p1>My hobbies:</p1>
         {props.hobbies.map((hobby,index) => (
-          <li key={index}>{hobby}</li>
+        <li key={index}>{hobby}</li>
         ))}
       </ul>
     </div>
