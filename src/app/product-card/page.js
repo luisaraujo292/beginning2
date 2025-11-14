@@ -8,7 +8,7 @@ function ProductCard(props) {
   }
   return(
     <div className="product-card">
-      <img src={props.product.name} alt={props.product.name}></img>
+      <img src={props.product.image} alt={props.product.image}></img>
       <h2>{props.product.name}</h2>
       <p>Price: ${props.product.price}</p>
       <button onClick={handleClick}>Add to Cart</button>
