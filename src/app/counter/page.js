@@ -1,5 +1,6 @@
 'use client'
 
+// We use useState hook tomanage the count state. 
 import React, {useState} from 'react';
 
 function Counter(){
